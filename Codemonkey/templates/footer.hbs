@@ -1,0 +1,99 @@
+</div>
+<footer class="footer">
+  <div class="row">
+    <div class="col-md-6 footer__soc">
+      {{#if settings.show_facebook}}
+        <a href="{{settings.facebook_url}}">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+      {{/if}}
+      {{#if settings.show_xcorp}}
+        <a href="{{settings.xcorp_url}}" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      {{/if}}
+      {{#if settings.show_youtube}}
+        <a href="{{settings.youtube_url}}" target="_blank">
+          <i class="fab fa-youtube-square"></i>
+        </a>
+      {{/if}}
+      {{#if settings.show_linkedin}}
+        <a href="{{settings.linkedin_url}}" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      {{/if}}
+      {{#if settings.show_instagram}}
+        <a href="{{settings.instagram_url}}" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      {{/if}}
+      {{#if settings.show_discord}}
+        <a href="{{settings.discord_url}}" target="_blank">
+          <i class="fa-brands fa-discord"></i>
+        </a>
+      {{/if}}
+      {{#if settings.show_pinterest}}
+        <a href="{{settings.pinterest_url}}" target="_blank">
+          <i class="fa-brands fa-pinterest-p"></i>
+        </a>
+      {{/if}}
+      {{#if settings.show_threads}}
+        <a href="{{settings.threads_url}}" target="_blank">
+          <i class="fa-brands fa-threads"></i>
+        </a>
+      {{/if}}
+      {{#if settings.show_mastodon}}
+        <a href="{{settings.mastodon_url}}" target="_blank">
+          <i class="fa-brands fa-mastodon"></i>
+        </a>
+      {{/if}}
+      {{#if settings.show_rss}}
+        <a href="{{settings.rss_url}}" target="_blank">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      {{/if}}
+    </div>
+    <div class="col-md-6 footer__copy">
+      © {{settings.copyright}}
+    </div>
+  </div>
+</footer>
+
+</div>
+</div>
+</div>
+
+<script>
+  $(window).trigger('page:loaded');
+
+  var observer = new MutationObserver(function(mutationsList, observer) {
+    mutationsList.forEach(function(mutation) {
+      if (mutation.type === 'childList') {
+        if (window.HelpCenter && !window.theme.settings) {
+          try {
+            window.theme.settings = Object.assign({}, HelpCenter.internal.theming_settings);
+            window.theme.user = Object.assign({}, HelpCenter.user);
+          }
+          catch (error) {
+            window.theme.settings = {isError: true};
+            window.theme.user = {isError: true};
+          }
+          observer.disconnect();
+          $(window).trigger('HelpCenter:fetched');
+        }
+      }
+    });
+  });
+
+  observer.observe(document.body, {
+    attributes: false,
+    childList: true,
+    subtree: false
+  });
+</script>
+
+{{#if settings.inject_footer}}
+  <script>
+    document.write(({{json_stringify settings.inject_footer}}).replace(/(&lt;)/g, '<').replace(/(&gt;)/g, '>'));
+  </script>
+{{/if}}
