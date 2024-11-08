@@ -157,6 +157,131 @@
         </div>
       {{/if}}
 
+      {{#if settings.show_helper_4}}
+        <div class="col-12 col-md-4">
+          <a id="helper-4" href="{{settings.helper_4_url}}" class="helpers__item" target="{{settings.helper_4_target}}" data-plugin-internal-url>
+            <span class="helpers__icon">
+              <img src="{{settings.helper_4_icon}}" alt="{{settings.helper_4_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 helpers__title">
+              {{#is settings.helper_4_title '-'}}
+                {{#is help_center.locale 'en-us'}}Guides{{/is}}
+                {{#is help_center.locale 'en-gb'}}Guides{{/is}}
+                {{#is help_center.locale 'nl'}}Handleidingen{{/is}}
+                {{#is help_center.locale 'fr'}}Manuels{{/is}}
+                {{#is help_center.locale 'de-de'}}Anleitungen{{/is}}
+                {{#is help_center.locale 'de'}}Anleitungen{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.helper_4_title}}
+                {{else}}
+                  {{settings.helper_4_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="helpers__description">
+              {{#is settings.helper_4_description '-'}}
+                {{#is help_center.locale 'en-us'}}Need help? We have you covered.{{/is}}
+                {{#is help_center.locale 'en-gb'}}Need help? We have you covered.{{/is}}
+                {{#is help_center.locale 'nl'}}Hulp nodig? We zijn er voor je.{{/is}}
+                {{#is help_center.locale 'fr'}}Besoin d'aide? Nous sommes là pour vous.{{/is}}
+                {{#is help_center.locale 'de-de'}}Brauchen Sie Hilfe? Wir kümmern uns um Sie.{{/is}}
+                {{#is help_center.locale 'de'}}Brauchst Du Hilfe? Wir kümmern uns um Dich.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.helper_4_description}}
+                {{else}}
+                  {{settings.helper_4_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
+
+      {{#if settings.show_helper_5}}
+        <div class="col-12 col-md-4">
+          <a id="helper-5" href="{{settings.helper_5_url}}" class="helpers__item" target="{{settings.helper_5_target}}" data-plugin-internal-url>
+            <span class="helpers__icon">
+              <img src="{{settings.helper_5_icon}}" alt="{{settings.helper_5_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 helpers__title">
+              {{#is settings.helper_5_title '-'}}
+                {{#is help_center.locale 'en-us'}}Guides{{/is}}
+                {{#is help_center.locale 'en-gb'}}Guides{{/is}}
+                {{#is help_center.locale 'nl'}}Handleidingen{{/is}}
+                {{#is help_center.locale 'fr'}}Manuels{{/is}}
+                {{#is help_center.locale 'de-de'}}Anleitungen{{/is}}
+                {{#is help_center.locale 'de'}}Anleitungen{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.helper_5_title}}
+                {{else}}
+                  {{settings.helper_5_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="helpers__description">
+              {{#is settings.helper_5_description '-'}}
+                {{#is help_center.locale 'en-us'}}Need help? We have you covered.{{/is}}
+                {{#is help_center.locale 'en-gb'}}Need help? We have you covered.{{/is}}
+                {{#is help_center.locale 'nl'}}Hulp nodig? We zijn er voor je.{{/is}}
+                {{#is help_center.locale 'fr'}}Besoin d'aide? Nous sommes là pour vous.{{/is}}
+                {{#is help_center.locale 'de-de'}}Brauchen Sie Hilfe? Wir kümmern uns um Sie.{{/is}}
+                {{#is help_center.locale 'de'}}Brauchst Du Hilfe? Wir kümmern uns um Dich.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.helper_5_description}}
+                {{else}}
+                  {{settings.helper_5_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
+
+      {{#if settings.show_helper_6}}
+        <div class="col-12 col-md-4">
+          <a id="helper-6" href="{{settings.helper_6_url}}" class="helpers__item" target="{{settings.helper_6_target}}" data-plugin-internal-url>
+            <span class="helpers__icon">
+              <img src="{{settings.helper_6_icon}}" alt="{{settings.helper_6_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 helpers__title">
+              {{#is settings.helper_6_title '-'}}
+                {{#is help_center.locale 'en-us'}}Guides{{/is}}
+                {{#is help_center.locale 'en-gb'}}Guides{{/is}}
+                {{#is help_center.locale 'nl'}}Handleidingen{{/is}}
+                {{#is help_center.locale 'fr'}}Manuels{{/is}}
+                {{#is help_center.locale 'de-de'}}Anleitungen{{/is}}
+                {{#is help_center.locale 'de'}}Anleitungen{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.helper_6_title}}
+                {{else}}
+                  {{settings.helper_6_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="helpers__description">
+              {{#is settings.helper_6_description '-'}}
+                {{#is help_center.locale 'en-us'}}Need help? We have you covered.{{/is}}
+                {{#is help_center.locale 'en-gb'}}Need help? We have you covered.{{/is}}
+                {{#is help_center.locale 'nl'}}Hulp nodig? We zijn er voor je.{{/is}}
+                {{#is help_center.locale 'fr'}}Besoin d'aide? Nous sommes là pour vous.{{/is}}
+                {{#is help_center.locale 'de-de'}}Brauchen Sie Hilfe? Wir kümmern uns um Sie.{{/is}}
+                {{#is help_center.locale 'de'}}Brauchst Du Hilfe? Wir kümmern uns um Dich.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.helper_6_description}}
+                {{else}}
+                  {{settings.helper_6_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
     </div>
   </section>
 {{/if}}
