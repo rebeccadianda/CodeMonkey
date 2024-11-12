@@ -442,34 +442,6 @@
       "label": "Contacts",
       "variables": [
         {
-          "identifier": "show_facebook",
-          "type": "checkbox",
-          "description": "Show facebook button",
-          "label": "Show facebook button",
-          "value": false
-        },
-        {
-          "identifier": "facebook_url",
-          "type": "text",
-          "description": "URL to the Facebook account",
-          "label": "Facebook URL",
-          "value": "https://facebook.com"
-        },
-        {
-          "identifier": "show_xcorp",
-          "type": "checkbox",
-          "description": "Show X Corp button",
-          "label": "Show X Corp button",
-          "value": false
-        },
-        {
-          "identifier": "xcorp_url",
-          "type": "text",
-          "description": "URL to the X Corp account",
-          "label": "X Corp URL",
-          "value": "https://twitter.com"
-        },
-        {
           "identifier": "show_youtube",
           "type": "checkbox",
           "description": "Show youtube button",
@@ -496,49 +468,7 @@
           "description": "URL to the LinkedIn account",
           "label": "LinkedIn URL",
           "value": "https://linkedin.com"
-        },
-        {
-          "identifier": "show_instagram",
-          "type": "checkbox",
-          "description": "Show instagram button",
-          "label": "Show instagram button",
-          "value": false
-        },
-        {
-          "identifier": "instagram_url",
-          "type": "text",
-          "description": "URL to the Instagram account",
-          "label": "Instagram URL",
-          "value": "https://www.instagram.com/"
-        },
-        {
-          "identifier": "show_discord",
-          "type": "checkbox",
-          "description": "Show discord button",
-          "label": "Show discord button",
-          "value": false
-        },
-        {
-          "identifier": "discord_url",
-          "type": "text",
-          "description": "URL to the Discord account",
-          "label": "Discord URL",
-          "value": "https://discord.com/"
-        },
-        {
-          "identifier": "show_pinterest",
-          "type": "checkbox",
-          "description": "Show pinterest button",
-          "label": "Show pinterest button",
-          "value": false
-        },
-        {
-          "identifier": "pinterest_url",
-          "type": "text",
-          "description": "URL to the Pinterest account",
-          "label": "Pinterest URL",
-          "value": "https://pinterest.com/"
-        },
+        },        
         {
           "identifier": "show_threads",
           "type": "checkbox",
@@ -552,20 +482,6 @@
           "description": "URL to the Threads account",
           "label": "Threads URL",
           "value": "https://www.threads.net/"
-        },
-        {
-          "identifier": "show_mastodon",
-          "type": "checkbox",
-          "description": "Show mastodon button",
-          "label": "Show mastodon button",
-          "value": false
-        },
-        {
-          "identifier": "mastodon_url",
-          "type": "text",
-          "description": "URL to the Mastodon account",
-          "label": "Mastodon URL",
-          "value": "https://mastodon.social/"
         },
         {
           "identifier": "show_rss",
