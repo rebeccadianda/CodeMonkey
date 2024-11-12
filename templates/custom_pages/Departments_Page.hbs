@@ -1,0 +1,132 @@
+{{!-- Departments --}}
+{{#if settings.show_departments}}
+  <section class="section departments">
+    <div class="row departments__container">
+
+      {{#if settings.show_departments_link_1}}
+        <div class="col-12 col-md-4">
+          <a id="helper-1" href="{{settings.departments_1_url}}" class="departments__item" target="{{settings.departments_1_target}}" data-plugin-internal-url>
+            <span class="departments__icon">
+              <img src="{{settings.departments_1_icon}}" alt="{{settings.departments_1_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 departments__title">
+              {{#is settings.helper_1_title '-'}}
+                FAQ
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.departments_1_title}}
+                {{else}}
+                  {{settings.departments_1_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="departments__description">
+              {{#is settings.departments_1_description '-'}}
+                {{#is help_center.locale 'en-us'}}Questions? Find the answer to any question.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.departments_1_description}}
+                {{else}}
+                  {{settings.departments_1_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
+      {{#if settings.show_departments_2}}
+        <div class="col-12 col-md-4">
+          <a id="helper-2" href="{{settings.departments_2_url}}" class="departments__item" target="{{settings.departments_2_target}}" data-plugin-internal-url>
+            <span class="departments__icon">
+              <img src="{{settings.departments_2_icon}}" alt="{{settings.departments_2_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 departments__title">
+              {{#is settings.departments_2_title '-'}}
+                {{#is help_center.locale 'en-us'}}Guides{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.departments_2_title}}
+                {{else}}
+                  {{settings.departments_2_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="departments__description">
+              {{#is settings.departments_2_description '-'}}
+                {{#is help_center.locale 'en-us'}}Need help? We have you covered.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.departments_2_description}}
+                {{else}}
+                  {{settings.departments_2_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
+      {{#if settings.show_departmentsr_3}}
+        <div class="col-12 col-md-4">
+          <a id="helper-4" href="{{settings.departments_3_url}}" class="departments__item" target="{{settings.departments_3_target}}" data-plugin-internal-url>
+            <span class="departments__icon">
+              <img src="{{settings.departments_3_icon}}" alt="{{settings.departments_3_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 departments__title">
+              {{#is settings.departments_3_title '-'}}
+                {{t 'submit_a_request'}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.departments_3_title}}
+                {{else}}
+                  {{settings.departments_3_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="departments__description">
+              {{#is settings.departments_3_description '-'}}
+                {{#is help_center.locale 'en-us'}}Contact us through a specially prepared form.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.departments_3_description}}
+                {{else}}
+                  {{settings.departments_3_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
+      {{#if settings.show_departments_4}}
+        <div class="col-12 col-md-4">
+          <a id="helper-4" href="{{settings.departments_4_url}}" class="departments__item" target="{{settings.departments_4_target}}" data-plugin-internal-url>
+            <span class="departments__icon">
+              <img src="{{settings.departments_4_icon}}" alt="{{settings.departments_4_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 departments__title">
+              {{#is settings.departments_4_title '-'}}
+                {{#is help_center.locale 'en-us'}}Guides{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.departments_4_title}}
+                {{else}}
+                  {{settings.departments_4_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="departments__description">
+              {{#is settings.departments_4_description '-'}}
+                {{#is help_center.locale 'en-us'}}Need help? We have you covered.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.departments_4_description}}
+                {{else}}
+                  {{settings.departments_4_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
+    </div>
+  </section>
+{{/if}}

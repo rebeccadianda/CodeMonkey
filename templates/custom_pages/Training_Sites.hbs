@@ -2,3 +2,136 @@
 <a href = https://training.knowbe4.com/ui/login > Cyber Training </a>
 <a href = https://fpc.litmos.com/account/login?ReturnUrl=%2fhome%2fdashboard > LITMOS Training </a>
 <a href = https://mnlms.net/lms/mastery/formosaplastics/tsvr > DOT Training </a>
+
+{{!-- Training --}}
+{{#if settings.show_training}}
+  <section class="section training">
+    <div class="row training__container">
+
+      {{#if settings.show_training_link_1}}
+        <div class="col-12 col-md-4">
+          <a id="training-1" href="{{settings.training_1_url}}" class="training__item" target="{{settings.training_1_target}}" data-plugin-internal-url>
+            <span class="training__icon">
+              <img src="{{settings.trainings_1_icon}}" alt="{{settings.training_1_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 training__title">
+              {{#is settings.training_1_title '-'}}
+                FAQ
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.training_1_title}}
+                {{else}}
+                  {{settings.training_1_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="training__description">
+              {{#is settings.training_1_description '-'}}
+                {{#is help_center.locale 'en-us'}}Questions? Find the answer to any question.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.training_1_description}}
+                {{else}}
+                  {{settings.training_1_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
+      {{#if settings.show_training_2}}
+        <div class="col-12 col-md-4">
+          <a id="training-2" href="{{settings.training_2_url}}" class="training__item" target="{{settings.training_2_target}}" data-plugin-internal-url>
+            <span class="training__icon">
+              <img src="{{settings.training_2_icon}}" alt="{{settings.training_2_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 training__title">
+              {{#is settings.training_2_title '-'}}
+                {{#is help_center.locale 'en-us'}}Guides{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.training_2_title}}
+                {{else}}
+                  {{settings.training_2_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="training__description">
+              {{#is settings.training_2_description '-'}}
+                {{#is help_center.locale 'en-us'}}Need help? We have you covered.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.training_2_description}}
+                {{else}}
+                  {{settings.training_2_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
+      {{#if settings.show_training_3}}
+        <div class="col-12 col-md-4">
+          <a id="training-4" href="{{settings.training_3_url}}" class="training__item" target="{{settings.training_3_target}}" data-plugin-internal-url>
+            <span class="training__icon">
+              <img src="{{settings.training_3_icon}}" alt="{{settings.training_3_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 training__title">
+              {{#is settings.training_3_title '-'}}
+                {{t 'submit_a_request'}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.training_3_title}}
+                {{else}}
+                  {{settings.training_3_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="training__description">
+              {{#is settings.training_3_description '-'}}
+                {{#is help_center.locale 'en-us'}}Contact us through a specially prepared form.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.training_3_description}}
+                {{else}}
+                  {{settings.training_3_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
+      {{#if settings.show_training_4}}
+        <div class="col-12 col-md-4">
+          <a id="training-4" href="{{settings.training_4_url}}" class="training__item" target="{{settings.training_4_target}}" data-plugin-internal-url>
+            <span class="training__icon">
+              <img src="{{settings.training_4_icon}}" alt="{{settings.training_4_title}}" data-plugin-inline-svg>
+            </span>
+            <span class="h3 training__title">
+              {{#is settings.training_4_title '-'}}
+                {{#is help_center.locale 'en-us'}}Guides{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.training_4_title}}
+                {{else}}
+                  {{settings.training_4_title}}
+                {{/if}}
+              {{/is}}
+            </span>
+            <span class="training__description">
+              {{#is settings.training_4_description '-'}}
+                {{#is help_center.locale 'en-us'}}Need help? We have you covered.{{/is}}
+              {{else}}
+                {{#if settings.translations_enable}}
+                  {{dc settings.training_4_description}}
+                {{else}}
+                  {{settings.training_4_description}}
+                {{/if}}
+              {{/is}}
+            </span>
+          </a>
+        </div>
+      {{/if}}
+    </div>
+  </section>
+{{/if}}

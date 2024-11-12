@@ -1527,6 +1527,478 @@
       ]
     },
     {
+      "label": "Departments",
+      "variables": [
+        {
+          "identifier": "show_departments",
+          "type": "checkbox",
+          "description": "Enable the departments component",
+          "label": "Enable departments",
+          "value": true
+        }
+      ]
+    },
+    {
+      "label": "Department 1",
+      "variables": [
+        {
+          "identifier": "show_departments_1",
+          "type": "checkbox",
+          "description": "Enable departments 1",
+          "label": "Enable departments 1",
+          "value": true
+        },
+        {
+          "identifier": "departments_1_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "Deparments 1 icon"
+        },
+        {
+          "identifier": "departments_1_title",
+          "type": "text",
+          "description": "departments 1 title",
+          "label": "Departments 1 title",
+          "value": "Guides"
+        },
+        {
+          "identifier": "departments_1_description",
+          "type": "text",
+          "description": "Departments 1 description",
+          "label": "Departments 1 description",
+          "value": "How to videos and directions for common issues."
+        },
+        {
+          "identifier": "departments_1_url",
+          "type": "text",
+          "description": "Departments 1 url",
+          "label": "Departments 1 url",
+          "value": "#"
+        },
+        {
+          "identifier": "departments_1_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Department 2",
+      "variables": [
+        {
+          "identifier": "show_departments_2",
+          "type": "checkbox",
+          "description": "Enable departments 2",
+          "label": "Enable departments 2",
+          "value": true
+        },
+        {
+          "identifier": "departments_2_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "Deparments 2 icon"
+        },
+        {
+          "identifier": "departments_2_title",
+          "type": "text",
+          "description": "departments 2 title",
+          "label": "Departments 2 title",
+          "value": "Guides"
+        },
+        {
+          "identifier": "departments_2_description",
+          "type": "text",
+          "description": "Departments 2 description",
+          "label": "Departments 2 description",
+          "value": "How to videos and directions for common issues."
+        },
+        {
+          "identifier": "departments_2_url",
+          "type": "text",
+          "description": "Departments 2 url",
+          "label": "Departments 2 url",
+          "value": "#"
+        },
+        {
+          "identifier": "departments_2_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Department 3",
+      "variables": [
+        {
+          "identifier": "show_departments_3",
+          "type": "checkbox",
+          "description": "Enable departments 3",
+          "label": "Enable departments 3",
+          "value": true
+        },
+        {
+          "identifier": "departments_3_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "Deparments 3 icon"
+        },
+        {
+          "identifier": "departments_3_title",
+          "type": "text",
+          "description": "departments 3 title",
+          "label": "Departments 3 title",
+          "value": "Guides"
+        },
+        {
+          "identifier": "departments_3_description",
+          "type": "text",
+          "description": "Departments 3 description",
+          "label": "Departments 3 description",
+          "value": "How to videos and directions for common issues."
+        },
+        {
+          "identifier": "departments_3_url",
+          "type": "text",
+          "description": "Departments 3 url",
+          "label": "Departments 3 url",
+          "value": "#"
+        },
+        {
+          "identifier": "departments_3_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Department 4",
+      "variables": [
+        {
+          "identifier": "show_departments_4",
+          "type": "checkbox",
+          "description": "Enable departments 4",
+          "label": "Enable departments 4",
+          "value": true
+        },
+        {
+          "identifier": "departments_4_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "Deparments 4 icon"
+        },
+        {
+          "identifier": "departments_4_title",
+          "type": "text",
+          "description": "departments 4 title",
+          "label": "Departments 4 title",
+          "value": "Guides"
+        },
+        {
+          "identifier": "departments_4_description",
+          "type": "text",
+          "description": "Departments 4 description",
+          "label": "Departments 4 description",
+          "value": "How to videos and directions for common issues."
+        },
+        {
+          "identifier": "departments_4_url",
+          "type": "text",
+          "description": "Departments 4 url",
+          "label": "Departments 4 url",
+          "value": "#"
+        },
+        {
+          "identifier": "departments_4_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "training",
+      "variables": [
+        {
+          "identifier": "show_training",
+          "type": "checkbox",
+          "description": "Enable the departments component",
+          "label": "Enable training",
+          "value": true
+        }
+      ]
+    },
+    {
+      "label": "training 1",
+      "variables": [
+        {
+          "identifier": "show_training_1",
+          "type": "checkbox",
+          "description": "Enable training 1",
+          "label": "Enable training 1",
+          "value": true
+        },
+        {
+          "identifier": "training_1_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "training 1 icon"
+        },
+        {
+          "identifier": "training_1_title",
+          "type": "text",
+          "description": "training 1 title",
+          "label": "training 1 title",
+          "value": "Guides"
+        },
+        {
+          "identifier": "training_1_description",
+          "type": "text",
+          "description": "training 1 description",
+          "label": "training 1 description",
+          "value": "How to videos and directions for common issues."
+        },
+        {
+          "identifier": "training_1_url",
+          "type": "text",
+          "description": "training 1 url",
+          "label": "training 1 url",
+          "value": "#"
+        },
+        {
+          "identifier": "training_1_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "training 2",
+      "variables": [
+        {
+          "identifier": "show_training_2",
+          "type": "checkbox",
+          "description": "Enable training 2",
+          "label": "Enable training 2",
+          "value": true
+        },
+        {
+          "identifier": "training_2_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "training 2 icon"
+        },
+        {
+          "identifier": "training_2_title",
+          "type": "text",
+          "description": "training 2 title",
+          "label": "training 2 title",
+          "value": "Guides"
+        },
+        {
+          "identifier": "training_2_description",
+          "type": "text",
+          "description": "training 2 description",
+          "label": "training 2 description",
+          "value": "How to videos and directions for common issues."
+        },
+        {
+          "identifier": "training_2_url",
+          "type": "text",
+          "description": "training 2 url",
+          "label": "training 2 url",
+          "value": "#"
+        },
+        {
+          "identifier": "training_2_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "training 3",
+      "variables": [
+        {
+          "identifier": "show_training_3",
+          "type": "checkbox",
+          "description": "Enable training 3",
+          "label": "Enable training 3",
+          "value": true
+        },
+        {
+          "identifier": "training_3_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "training 3 icon"
+        },
+        {
+          "identifier": "training_3_title",
+          "type": "text",
+          "description": "training 3 title",
+          "label": "training 3 title",
+          "value": "Guides"
+        },
+        {
+          "identifier": "training_3_description",
+          "type": "text",
+          "description": "training 3 description",
+          "label": "training 3 description",
+          "value": "How to videos and directions for common issues."
+        },
+        {
+          "identifier": "training_3_url",
+          "type": "text",
+          "description": "training 3 url",
+          "label": "training 3 url",
+          "value": "#"
+        },
+        {
+          "identifier": "training_3_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "training 4",
+      "variables": [
+        {
+          "identifier": "show_training_4",
+          "type": "checkbox",
+          "description": "Enable training 4",
+          "label": "Enable training 4",
+          "value": true
+        },
+        {
+          "identifier": "training_4_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "training 4 icon"
+        },
+        {
+          "identifier": "training_4_title",
+          "type": "text",
+          "description": "training 4 title",
+          "label": "training 4 title",
+          "value": "Guides"
+        },
+        {
+          "identifier": "training_4_description",
+          "type": "text",
+          "description": "training 4 description",
+          "label": "training 4 description",
+          "value": "How to videos and directions for common issues."
+        },
+        {
+          "identifier": "training_4_url",
+          "type": "text",
+          "description": "training 4 url",
+          "label": "training 4 url",
+          "value": "#"
+        },
+        {
+          "identifier": "training_4_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "label": "Home page",
       "variables": [
         {
