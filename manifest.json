@@ -442,34 +442,6 @@
       "label": "Contacts",
       "variables": [
         {
-          "identifier": "show_facebook",
-          "type": "checkbox",
-          "description": "Show facebook button",
-          "label": "Show facebook button",
-          "value": false
-        },
-        {
-          "identifier": "facebook_url",
-          "type": "text",
-          "description": "URL to the Facebook account",
-          "label": "Facebook URL",
-          "value": "https://facebook.com"
-        },
-        {
-          "identifier": "show_xcorp",
-          "type": "checkbox",
-          "description": "Show X Corp button",
-          "label": "Show X Corp button",
-          "value": false
-        },
-        {
-          "identifier": "xcorp_url",
-          "type": "text",
-          "description": "URL to the X Corp account",
-          "label": "X Corp URL",
-          "value": "https://twitter.com"
-        },
-        {
           "identifier": "show_youtube",
           "type": "checkbox",
           "description": "Show youtube button",
@@ -498,48 +470,6 @@
           "value": "https://linkedin.com"
         },
         {
-          "identifier": "show_instagram",
-          "type": "checkbox",
-          "description": "Show instagram button",
-          "label": "Show instagram button",
-          "value": false
-        },
-        {
-          "identifier": "instagram_url",
-          "type": "text",
-          "description": "URL to the Instagram account",
-          "label": "Instagram URL",
-          "value": "https://www.instagram.com/"
-        },
-        {
-          "identifier": "show_discord",
-          "type": "checkbox",
-          "description": "Show discord button",
-          "label": "Show discord button",
-          "value": false
-        },
-        {
-          "identifier": "discord_url",
-          "type": "text",
-          "description": "URL to the Discord account",
-          "label": "Discord URL",
-          "value": "https://discord.com/"
-        },
-        {
-          "identifier": "show_pinterest",
-          "type": "checkbox",
-          "description": "Show pinterest button",
-          "label": "Show pinterest button",
-          "value": false
-        },
-        {
-          "identifier": "pinterest_url",
-          "type": "text",
-          "description": "URL to the Pinterest account",
-          "label": "Pinterest URL",
-          "value": "https://pinterest.com/"
-        },
-        {
           "identifier": "show_threads",
           "type": "checkbox",
           "description": "Show threads button",
@@ -552,20 +482,6 @@
           "description": "URL to the Threads account",
           "label": "Threads URL",
           "value": "https://www.threads.net/"
-        },
-        {
-          "identifier": "show_mastodon",
-          "type": "checkbox",
-          "description": "Show mastodon button",
-          "label": "Show mastodon button",
-          "value": false
-        },
-        {
-          "identifier": "mastodon_url",
-          "type": "text",
-          "description": "URL to the Mastodon account",
-          "label": "Mastodon URL",
-          "value": "https://mastodon.social/"
         },
         {
           "identifier": "show_rss",
@@ -690,7 +606,7 @@
           "type": "checkbox",
           "description": "Enable the sidenav component",
           "label": "Enable sidenav",
-          "value": true
+          "value": false
         },
         {
           "identifier": "sidenav_title",
@@ -825,6 +741,402 @@
           "identifier": "custom_link_3_target",
           "type": "list",
           "description": "Open the link 3 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_4",
+          "type": "checkbox",
+          "description": "Show custom link 4",
+          "label": "Custom link 4",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_4_icon",
+          "type": "file",
+          "description": "Custom link 4 icon",
+          "label": "Custom link 4 icon"
+        },
+        {
+          "identifier": "custom_link_4_text",
+          "type": "text",
+          "description": "Custom link 4 text",
+          "label": "Custom link 4 text",
+          "value": "New FPG Workflow"
+        },
+        {
+          "identifier": "custom_link_4_url",
+          "type": "text",
+          "description": "Custom link 4 url",
+          "label": "Custom link 4 url",
+          "value": "https://workflow.fpcusa.com/"
+        },
+        {
+          "identifier": "custom_link_4_target",
+          "type": "list",
+          "description": "Open the link 4 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_5",
+          "type": "checkbox",
+          "description": "Show custom link 5",
+          "label": "Custom link 5",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_5_icon",
+          "type": "file",
+          "description": "Custom link 5 icon",
+          "label": "Custom link 5 icon"
+        },
+        {
+          "identifier": "custom_link_5_text",
+          "type": "text",
+          "description": "Custom link 5 text",
+          "label": "Custom link 5 text",
+          "value": "FPC EHS"
+        },
+        {
+          "identifier": "custom_link_5_url",
+          "type": "text",
+          "description": "Custom link 5 url",
+          "label": "Custom link 5 url",
+          "value": "https://fpc.fpcusa.com/fuhqehs/"
+        },
+        {
+          "identifier": "custom_link_5_target",
+          "type": "list",
+          "description": "Open the link 5 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_6",
+          "type": "checkbox",
+          "description": "Show custom link 6",
+          "label": "Custom link 6",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_6_icon",
+          "type": "file",
+          "description": "Custom link 6 icon",
+          "label": "Custom link 6 icon"
+        },
+        {
+          "identifier": "custom_link_6_text",
+          "type": "text",
+          "description": "Custom link 6 text",
+          "label": "Custom link 6 text",
+          "value": "Point Comfort Intranet"
+        },
+        {
+          "identifier": "custom_link_6_url",
+          "type": "text",
+          "description": "Custom link 6 url",
+          "label": "Custom link 6 url",
+          "value": "http://fpctexas.fpcusa.com/fpctexas2.htm"
+        },
+        {
+          "identifier": "custom_link_6_target",
+          "type": "list",
+          "description": "Open the link 6 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_7",
+          "type": "checkbox",
+          "description": "Show custom link 7",
+          "label": "Custom link 7",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_7_icon",
+          "type": "file",
+          "description": "Custom link 7 icon",
+          "label": "Custom link 7 icon"
+        },
+        {
+          "identifier": "custom_link_7_text",
+          "type": "text",
+          "description": "Custom link 7 text",
+          "label": "Custom link 7 text",
+          "value": "Gain Share"
+        },
+        {
+          "identifier": "custom_link_7_url",
+          "type": "text",
+          "description": "Custom link 7 url",
+          "label": "Custom link 7 url",
+          "value": "https://txintranet.fpcusa.com/gain-sharing"
+        },
+        {
+          "identifier": "custom_link_7_target",
+          "type": "list",
+          "description": "Open the link 7 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_8",
+          "type": "checkbox",
+          "description": "Show custom link 8",
+          "label": "Custom link 8",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_8_icon",
+          "type": "file",
+          "description": "Custom link 8 icon",
+          "label": "Custom link 8 icon"
+        },
+        {
+          "identifier": "custom_link_8_text",
+          "type": "text",
+          "description": "Custom link 8 text",
+          "label": "Custom link 8 text",
+          "value": "Exxtend Learning - Local"
+        },
+        {
+          "identifier": "custom_link_8_url",
+          "type": "text",
+          "description": "Custom link 8 url",
+          "label": "Custom link 8 url",
+          "value": "http://flbrnts10/index.pl?pg=Login"
+        },
+        {
+          "identifier": "custom_link_8_target",
+          "type": "list",
+          "description": "Open the link 8 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_9",
+          "type": "checkbox",
+          "description": "Show custom link 9",
+          "label": "Custom link ",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_9_icon",
+          "type": "file",
+          "description": "Custom link 9 icon",
+          "label": "Custom link 9 icon"
+        },
+        {
+          "identifier": "custom_link_9_text",
+          "type": "text",
+          "description": "Custom link 9 text",
+          "label": "Custom link 9 text",
+          "value": "DOT Training"
+        },
+        {
+          "identifier": "custom_link_9_url",
+          "type": "text",
+          "description": "Custom link 9 url",
+          "label": "Custom link 9 url",
+          "value": "https://mnlms.net/lms/mastery/formosaplastics/tsvr"
+        },
+        {
+          "identifier": "custom_link_9_target",
+          "type": "list",
+          "description": "Open the link 9 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_10",
+          "type": "checkbox",
+          "description": "Show custom link 10",
+          "label": "Custom link 10",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_10_icon",
+          "type": "file",
+          "description": "Custom link 10 icon",
+          "label": "Custom link 10 icon"
+        },
+        {
+          "identifier": "custom_link_10_text",
+          "type": "text",
+          "description": "Custom link 10 text",
+          "label": "Custom link 10 text",
+          "value": "J5 Login"
+        },
+        {
+          "identifier": "custom_link_10_url",
+          "type": "text",
+          "description": "Custom link 10 url",
+          "label": "Custom link 10 url",
+          "value": "https://flbrj5devs003.fuhq.home.usa/"
+        },
+        {
+          "identifier": "custom_link_10_target",
+          "type": "list",
+          "description": "Open the link 10 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_11",
+          "type": "checkbox",
+          "description": "Show custom link 11",
+          "label": "Custom link 11",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_11_icon",
+          "type": "file",
+          "description": "Custom link 11 icon",
+          "label": "Custom link 11 icon"
+        },
+        {
+          "identifier": "custom_link_11_text",
+          "type": "text",
+          "description": "Custom link 11 text",
+          "label": "Custom link 11 text",
+          "value": "Work Orders, Purchasing, Material"
+        },
+        {
+          "identifier": "custom_link_11_url",
+          "type": "text",
+          "description": "Custom link 11 url",
+          "label": "Custom link 11 url",
+          "value": "http://fpgnj.fpcusa.com:8010/mc/nxlogin.pgm"
+        },
+        {
+          "identifier": "custom_link_11_target",
+          "type": "list",
+          "description": "Open the link 11 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_12",
+          "type": "checkbox",
+          "description": "Show custom link 12",
+          "label": "Custom link 12",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_12_icon",
+          "type": "file",
+          "description": "Custom link 12 icon",
+          "label": "Custom link 12 icon"
+        },
+        {
+          "identifier": "custom_link_12_text",
+          "type": "text",
+          "description": "Custom link 12 text",
+          "label": "Custom link 12 text",
+          "value": "Onsite Clinic Appointments"
+        },
+        {
+          "identifier": "custom_link_12_url",
+          "type": "text",
+          "description": "Custom link 12 url",
+          "label": "Custom link 12 url",
+          "value": "https://scheduler.coreoccupational.com/calendar/formosa"
+        },
+        {
+          "identifier": "custom_link_12_target",
+          "type": "list",
+          "description": "Open the link 12 in a new or current tab",
           "label": "Open the link 1",
           "value": "_self",
           "options": [
@@ -1011,7 +1323,7 @@
           "type": "text",
           "description": "Helper 3 title",
           "label": "Helper 3 title",
-          "value": "Production Report"
+          "value": "Departments"
         },
         {
           "identifier": "helper_3_description",
@@ -1047,6 +1359,174 @@
       ]
     },
     {
+      "label": "Helper 4",
+      "variables": [
+        {
+          "identifier": "show_helper_4",
+          "type": "checkbox",
+          "description": "Enable helper 4",
+          "label": "Enable helper 4",
+          "value": true
+        },
+        {
+          "identifier": "helper_4_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "Helper 4 icon"
+        },
+        {
+          "identifier": "helper_4_title",
+          "type": "text",
+          "description": "Helper 4 title",
+          "label": "Helper 4 title",
+          "value": "Training Sites"
+        },
+        {
+          "identifier": "helper_4_description",
+          "type": "text",
+          "description": "Helper 4 description",
+          "label": "Helper 4 description",
+          "value": "Submit a help desk request through a specifically prepared form."
+        },
+        {
+          "identifier": "helper_4_url",
+          "type": "text",
+          "description": "Helper 4 url",
+          "label": "Helper 4 url",
+          "value": "flbr.zendesk.com/hc/p/Training_Sites"
+        },
+        {
+          "identifier": "helper_4_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Helper 5",
+      "variables": [
+        {
+          "identifier": "show_helper_5",
+          "type": "checkbox",
+          "description": "Enable helper 5",
+          "label": "Enable helper 5",
+          "value": true
+        },
+        {
+          "identifier": "helper_5_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "Helper 5 icon"
+        },
+        {
+          "identifier": "helper_5_title",
+          "type": "text",
+          "description": "Helper 5 title",
+          "label": "Helper 5 title",
+          "value": "Purchase Order Workflow"
+        },
+        {
+          "identifier": "helper_5_description",
+          "type": "text",
+          "description": "Helper 5 description",
+          "label": "Helper 5 description",
+          "value": "Submit a help desk request through a specifically prepared form."
+        },
+        {
+          "identifier": "helper_5_url",
+          "type": "text",
+          "description": "Helper 5 url",
+          "label": "Helper 5 url",
+          "value": "/hc/requests/new"
+        },
+        {
+          "identifier": "helper_5_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Helper 6",
+      "variables": [
+        {
+          "identifier": "show_helper_6",
+          "type": "checkbox",
+          "description": "Enable helper 6",
+          "label": "Enable helper 6",
+          "value": true
+        },
+        {
+          "identifier": "helper_6_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "Helper 6 icon"
+        },
+        {
+          "identifier": "helper_6_title",
+          "type": "text",
+          "description": "Helper 6 title",
+          "label": "Helper 6 title",
+          "value": "Local Links"
+        },
+        {
+          "identifier": "helper_6_description",
+          "type": "text",
+          "description": "Helper 6 description",
+          "label": "Helper 6 description",
+          "value": "Submit a help desk request through a specifically prepared form."
+        },
+        {
+          "identifier": "helper_6_url",
+          "type": "text",
+          "description": "Helper 6 url",
+          "label": "Helper 6 url",
+          "value": "/hc/requests/new"
+        },
+        {
+          "identifier": "helper_6_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "label": "Home page",
       "variables": [
         {
@@ -1061,14 +1541,14 @@
           "type": "checkbox",
           "description": "Enable the category list component",
           "label": "Enable category list",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_category_tree",
           "type": "checkbox",
           "description": "Show category tree",
           "label": "Category tree",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_recent_activities",
