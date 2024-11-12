@@ -837,7 +837,403 @@
               "value": "_blank"
             }
           ]
-        }
+        },
+        {
+          "identifier": "show_custom_link_4",
+          "type": "checkbox",
+          "description": "Show custom link 4",
+          "label": "Custom link 4",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_4_icon",
+          "type": "file",
+          "description": "Custom link 4 icon",
+          "label": "Custom link 4 icon"
+        },
+        {
+          "identifier": "custom_link_4_text",
+          "type": "text",
+          "description": "Custom link 4 text",
+          "label": "Custom link 4 text",
+          "value": "New Jersey Intranet"
+        },
+        {
+          "identifier": "custom_link_4_url",
+          "type": "text",
+          "description": "Custom link 4 url",
+          "label": "Custom link 4 url",
+          "value": "https://njintranet.fpcusa.com/"
+        },
+        {
+          "identifier": "custom_link_4_target",
+          "type": "list",
+          "description": "Open the link 4 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_5",
+          "type": "checkbox",
+          "description": "Show custom link 5",
+          "label": "Custom link 5",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_5_icon",
+          "type": "file",
+          "description": "Custom link 5 icon",
+          "label": "Custom link 5 icon"
+        },
+        {
+          "identifier": "custom_link_5_text",
+          "type": "text",
+          "description": "Custom link 5 text",
+          "label": "Custom link 5 text",
+          "value": "FPG Workflow"
+        },
+        {
+          "identifier": "custom_link_5_url",
+          "type": "text",
+          "description": "Custom link 5 url",
+          "label": "Custom link 5 url",
+          "value": "https://www33.fpcusa.com/FPGworkflow/Login.aspx?ReturnUrl=%2ffpgworkflow%2fDefault.aspx"
+        },
+        {
+          "identifier": "custom_link_5_target",
+          "type": "list",
+          "description": "Open the link 5 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_6",
+          "type": "checkbox",
+          "description": "Show custom link 6",
+          "label": "Custom link 6",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_6_icon",
+          "type": "file",
+          "description": "Custom link 6 icon",
+          "label": "Custom link 6 icon"
+        },
+        {
+          "identifier": "custom_link_6_text",
+          "type": "text",
+          "description": "Custom link 6 text",
+          "label": "Custom link 6 text",
+          "value": "FPG Workflow"
+        },
+        {
+          "identifier": "custom_link_6_url",
+          "type": "text",
+          "description": "Custom link 6 url",
+          "label": "Custom link 6 url",
+          "value": "https://www33.fpcusa.com/FPGworkflow/Login.aspx?ReturnUrl=%2ffpgworkflow%2fDefault.aspx"
+        },
+        {
+          "identifier": "custom_link_6_target",
+          "type": "list",
+          "description": "Open the link 6 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_7",
+          "type": "checkbox",
+          "description": "Show custom link 7",
+          "label": "Custom link 7",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_7_icon",
+          "type": "file",
+          "description": "Custom link 7 icon",
+          "label": "Custom link 7 icon"
+        },
+        {
+          "identifier": "custom_link_7_text",
+          "type": "text",
+          "description": "Custom link 7 text",
+          "label": "Custom link 7 text",
+          "value": "FPG Workflow"
+        },
+        {
+          "identifier": "custom_link_7_url",
+          "type": "text",
+          "description": "Custom link 7 url",
+          "label": "Custom link 7 url",
+          "value": "https://www33.fpcusa.com/FPGworkflow/Login.aspx?ReturnUrl=%2ffpgworkflow%2fDefault.aspx"
+        },
+        {
+          "identifier": "custom_link_7_target",
+          "type": "list",
+          "description": "Open the link 7 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_8",
+          "type": "checkbox",
+          "description": "Show custom link 8",
+          "label": "Custom link 8",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_8_icon",
+          "type": "file",
+          "description": "Custom link 8 icon",
+          "label": "Custom link 8 icon"
+        },
+        {
+          "identifier": "custom_link_8_text",
+          "type": "text",
+          "description": "Custom link 8 text",
+          "label": "Custom link 8 text",
+          "value": "FPG Workflow"
+        },
+        {
+          "identifier": "custom_link_8_url",
+          "type": "text",
+          "description": "Custom link 8 url",
+          "label": "Custom link 8 url",
+          "value": "https://www33.fpcusa.com/FPGworkflow/Login.aspx?ReturnUrl=%2ffpgworkflow%2fDefault.aspx"
+        },
+        {
+          "identifier": "custom_link_8_target",
+          "type": "list",
+          "description": "Open the link 8 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_9",
+          "type": "checkbox",
+          "description": "Show custom link 9",
+          "label": "Custom link ",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_9_icon",
+          "type": "file",
+          "description": "Custom link 9 icon",
+          "label": "Custom link 9 icon"
+        },
+        {
+          "identifier": "custom_link_9_text",
+          "type": "text",
+          "description": "Custom link 9 text",
+          "label": "Custom link 9 text",
+          "value": "FPG Workflow"
+        },
+        {
+          "identifier": "custom_link_9_url",
+          "type": "text",
+          "description": "Custom link 9 url",
+          "label": "Custom link 9 url",
+          "value": "https://www33.fpcusa.com/FPGworkflow/Login.aspx?ReturnUrl=%2ffpgworkflow%2fDefault.aspx"
+        },
+        {
+          "identifier": "custom_link_9_target",
+          "type": "list",
+          "description": "Open the link 9 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_10",
+          "type": "checkbox",
+          "description": "Show custom link 10",
+          "label": "Custom link 10",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_10_icon",
+          "type": "file",
+          "description": "Custom link 10 icon",
+          "label": "Custom link 10 icon"
+        },
+        {
+          "identifier": "custom_link_10_text",
+          "type": "text",
+          "description": "Custom link 10 text",
+          "label": "Custom link 10 text",
+          "value": "FPG Workflow"
+        },
+        {
+          "identifier": "custom_link_10_url",
+          "type": "text",
+          "description": "Custom link 10 url",
+          "label": "Custom link 10 url",
+          "value": "https://www33.fpcusa.com/FPGworkflow/Login.aspx?ReturnUrl=%2ffpgworkflow%2fDefault.aspx"
+        },
+        {
+          "identifier": "custom_link_10_target",
+          "type": "list",
+          "description": "Open the link 10 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_11",
+          "type": "checkbox",
+          "description": "Show custom link 11",
+          "label": "Custom link 11",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_11_icon",
+          "type": "file",
+          "description": "Custom link 11 icon",
+          "label": "Custom link 11 icon"
+        },
+        {
+          "identifier": "custom_link_11_text",
+          "type": "text",
+          "description": "Custom link 11 text",
+          "label": "Custom link 11 text",
+          "value": "FPG Workflow"
+        },
+        {
+          "identifier": "custom_link_11_url",
+          "type": "text",
+          "description": "Custom link 11 url",
+          "label": "Custom link 11 url",
+          "value": "https://www33.fpcusa.com/FPGworkflow/Login.aspx?ReturnUrl=%2ffpgworkflow%2fDefault.aspx"
+        },
+        {
+          "identifier": "custom_link_11_target",
+          "type": "list",
+          "description": "Open the link 11 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
+        {
+          "identifier": "show_custom_link_12",
+          "type": "checkbox",
+          "description": "Show custom link 12",
+          "label": "Custom link 12",
+          "value": true
+        },
+        {
+          "identifier": "custom_link_12_icon",
+          "type": "file",
+          "description": "Custom link 12 icon",
+          "label": "Custom link 12 icon"
+        },
+        {
+          "identifier": "custom_link_12_text",
+          "type": "text",
+          "description": "Custom link 12 text",
+          "label": "Custom link 12 text",
+          "value": "FPG Workflow"
+        },
+        {
+          "identifier": "custom_link_12_url",
+          "type": "text",
+          "description": "Custom link 12 url",
+          "label": "Custom link 12 url",
+          "value": "https://www33.fpcusa.com/FPGworkflow/Login.aspx?ReturnUrl=%2ffpgworkflow%2fDefault.aspx"
+        },
+        {
+          "identifier": "custom_link_12_target",
+          "type": "list",
+          "description": "Open the link 12 in a new or current tab",
+          "label": "Open the link 1",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        },
       ]
     },
     {
@@ -1033,6 +1429,174 @@
           "description": "Open the link in a new or current tab",
           "label": "Open the link",
           "value": "_blank",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Helper 4",
+      "variables": [
+        {
+          "identifier": "show_helper_4",
+          "type": "checkbox",
+          "description": "Enable helper 4",
+          "label": "Enable helper 4",
+          "value": true
+        },
+        {
+          "identifier": "helper_4_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "Helper 4 icon"
+        },
+        {
+          "identifier": "helper_4_title",
+          "type": "text",
+          "description": "Helper 4 title",
+          "label": "Helper 4 title",
+          "value": "Help Desk Request"
+        },
+        {
+          "identifier": "helper_4_description",
+          "type": "text",
+          "description": "Helper 4 description",
+          "label": "Helper 4 description",
+          "value": "Submit a help desk request through a specifically prepared form."
+        },
+        {
+          "identifier": "helper_4_url",
+          "type": "text",
+          "description": "Helper 4 url",
+          "label": "Helper 4 url",
+          "value": "/hc/requests/new"
+        },
+        {
+          "identifier": "helper_4_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Helper 5",
+      "variables": [
+        {
+          "identifier": "show_helper_5",
+          "type": "checkbox",
+          "description": "Enable helper 5",
+          "label": "Enable helper 5",
+          "value": true
+        },
+        {
+          "identifier": "helper_5_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "Helper 5 icon"
+        },
+        {
+          "identifier": "helper_5_title",
+          "type": "text",
+          "description": "Helper 5 title",
+          "label": "Helper 5 title",
+          "value": "Help Desk Request"
+        },
+        {
+          "identifier": "helper_5_description",
+          "type": "text",
+          "description": "Helper 5 description",
+          "label": "Helper 5 description",
+          "value": "Submit a help desk request through a specifically prepared form."
+        },
+        {
+          "identifier": "helper_5_url",
+          "type": "text",
+          "description": "Helper 5 url",
+          "label": "Helper 5 url",
+          "value": "/hc/requests/new"
+        },
+        {
+          "identifier": "helper_5_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
+          "options": [
+            {
+              "label": "Current tab",
+              "value": "_self"
+            },
+            {
+              "label": "New tab",
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Helper 6",
+      "variables": [
+        {
+          "identifier": "show_helper_6",
+          "type": "checkbox",
+          "description": "Enable helper 6",
+          "label": "Enable helper 6",
+          "value": true
+        },
+        {
+          "identifier": "helper_6_icon",
+          "type": "file",
+          "description": "We recommend uploading the icon in the SVG format",
+          "label": "Helper 6 icon"
+        },
+        {
+          "identifier": "helper_6_title",
+          "type": "text",
+          "description": "Helper 6 title",
+          "label": "Helper 6 title",
+          "value": "Help Desk Request"
+        },
+        {
+          "identifier": "helper_6_description",
+          "type": "text",
+          "description": "Helper 6 description",
+          "label": "Helper 6 description",
+          "value": "Submit a help desk request through a specifically prepared form."
+        },
+        {
+          "identifier": "helper_6_url",
+          "type": "text",
+          "description": "Helper 6 url",
+          "label": "Helper 6 url",
+          "value": "/hc/requests/new"
+        },
+        {
+          "identifier": "helper_6_target",
+          "type": "list",
+          "description": "Open the link in a new or current tab",
+          "label": "Open the link",
+          "value": "_self",
           "options": [
             {
               "label": "Current tab",
